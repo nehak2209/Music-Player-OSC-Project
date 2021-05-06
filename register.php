@@ -132,10 +132,11 @@
 
 			</div>
 
-			<div id="loginText">
+			<div id="loginText" >
 				<h1>'Music on your way!</h1>
-				<h2>Turn up the music and Feel it</h2>
-				<ul>
+				
+				<ul id="text2">
+				<li> Turn up the music and Feel it</li>
 					<li>Discover music you'll fall in love with</li>
 					<li>Create your own playlists</li>
 					<li>Follow artists to keep up to date</li>
