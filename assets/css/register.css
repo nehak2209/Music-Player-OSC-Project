@@ -136,6 +136,7 @@ body {
 
 #loginText li {
     font-size: 20px;
+    margin-left: 200px;
     list-style-type: none;
     padding: 5px 30px;
     background: url(../images/icons/checkmark.png) no-repeat 0 0;
