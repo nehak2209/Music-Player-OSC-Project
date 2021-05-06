@@ -17,7 +17,7 @@
 
 <html>
 <head>
-	<title>Welcome to Slotify!</title>
+	<title>Welcome to Musify!</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/register.css">
 
@@ -56,18 +56,18 @@
 					<h2>Login to your account</h2>
 					<p>
 						<?php echo $account->getError(Constants::$loginFailed); ?>
-						<label for="loginUsername">Username</label>
-						<input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. bartSimpson" value="<?php getInputValue('loginUsername') ?>" required autocomplete="off">
+						
+						<input id="loginUsername" name="loginUsername" type="text" placeholder="Username" value="<?php getInputValue('loginUsername') ?>" required autocomplete="off">
 					</p>
 					<p>
-						<label for="loginPassword">Password</label>
+						
 						<input id="loginPassword" name="loginPassword" type="password" placeholder="Your password" required>
 					</p>
 
 					<button type="submit" name="loginButton">LOG IN</button>
 
 					<div class="hasAccountText">
-						<span id="hideLogin">Don't have an account yet? Signup here.</span>
+						<span id="hideLogin">Don't have an account yet? Sign Up Here.</span>
 					</div>
 					
 				</form>
@@ -80,19 +80,19 @@
 						<?php echo $account->getError(Constants::$usernameCharacters); ?>
 						<?php echo $account->getError(Constants::$usernameTaken); ?>
 						<label for="username">Username</label>
-						<input id="username" name="username" type="text" placeholder="e.g. bartSimpson" value="<?php getInputValue('username') ?>" required>
+						<input id="username" name="username" type="text" placeholder=" " value="<?php getInputValue('username') ?>" required>
 					</p>
 
 					<p>
 						<?php echo $account->getError(Constants::$firstNameCharacters); ?>
 						<label for="firstName">First name</label>
-						<input id="firstName" name="firstName" type="text" placeholder="e.g. Bart" value="<?php getInputValue('firstName') ?>" required>
+						<input id="firstName" name="firstName" type="text" placeholder=" " value="<?php getInputValue('firstName') ?>" required>
 					</p>
 
 					<p>
 						<?php echo $account->getError(Constants::$lastNameCharacters); ?>
 						<label for="lastName">Last name</label>
-						<input id="lastName" name="lastName" type="text" placeholder="e.g. Simpson" value="<?php getInputValue('lastName') ?>" required>
+						<input id="lastName" name="lastName" type="text" placeholder=" " value="<?php getInputValue('lastName') ?>" required>
 					</p>
 
 					<p>
@@ -100,12 +100,12 @@
 						<?php echo $account->getError(Constants::$emailInvalid); ?>
 						<?php echo $account->getError(Constants::$emailTaken); ?>
 						<label for="email">Email</label>
-						<input id="email" name="email" type="email" placeholder="e.g. bart@gmail.com" value="<?php getInputValue('email') ?>" required>
+						<input id="email" name="email" type="email" placeholder=" " value="<?php getInputValue('email') ?>" required>
 					</p>
 
 					<p>
 						<label for="email2">Confirm email</label>
-						<input id="email2" name="email2" type="email" placeholder="e.g. bart@gmail.com" value="<?php getInputValue('email2') ?>" required>
+						<input id="email2" name="email2" type="email" placeholder=" " value="<?php getInputValue('email2') ?>" required>
 					</p>
 
 					<p>
@@ -113,12 +113,12 @@
 						<?php echo $account->getError(Constants::$passwordNotAlphanumeric); ?>
 						<?php echo $account->getError(Constants::$passwordCharacters); ?>
 						<label for="password">Password</label>
-						<input id="password" name="password" type="password" placeholder="Your password" required>
+						<input id="password" name="password" type="password" placeholder=" " required>
 					</p>
 
 					<p>
 						<label for="password2">Confirm password</label>
-						<input id="password2" name="password2" type="password" placeholder="Your password" required>
+						<input id="password2" name="password2" type="password" placeholder=" " required>
 					</p>
 
 					<button type="submit" name="registerButton">SIGN UP</button>
@@ -133,8 +133,8 @@
 			</div>
 
 			<div id="loginText">
-				<h1>Get great music, right now</h1>
-				<h2>Listen to loads of songs for free</h2>
+				<h1>'Music on your way!</h1>
+				<h2>Turn up the music and Feel it</h2>
 				<ul>
 					<li>Discover music you'll fall in love with</li>
 					<li>Create your own playlists</li>

@@ -382,8 +382,8 @@ body {
 }
 
 .button.green {
-    background-color: #2ebd59;
-    border-color: #2ebd59;
+    background-color: #2eb3bd;
+    border-color: #2eb8bd;
 }
 
 .borderBottom {
@@ -522,6 +522,6 @@ input:focus {
 }
 
 .userDetails .container .message {
-    color: #2ebd59;
+    color: #2ebd2e;
     font-weight: 300;
 }
